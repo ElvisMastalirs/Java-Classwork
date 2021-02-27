@@ -16,9 +16,5 @@ public class WeirdOrNot {
         } else {
             System.out.println("Weird");
         }
-
-
-
-
     }
 }
