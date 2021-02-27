@@ -12,7 +12,7 @@ public class Calculator {
         float b = scanner.nextFloat();
         scanner.nextLine();
         System.out.print("Ievadi darbību (+,-,*,/): ");
-        String action = scanner.nextLine();;
+        String action = scanner.nextLine();
         scanner.close();
         switch(action){
             case "+":
