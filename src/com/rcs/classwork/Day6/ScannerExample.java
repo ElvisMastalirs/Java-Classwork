@@ -22,7 +22,7 @@ public class ScannerExample {
         if (scanner.hasNextLine()){
             System.out.println(scanner.nextLine());
             x++;
-        }
+        } scanner.close();
         System.out.println("Puntku skaits: " + x);
 
     }
