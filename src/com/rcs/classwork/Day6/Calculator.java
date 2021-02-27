@@ -12,20 +12,20 @@ public class Calculator {
         float b = scanner.nextFloat();
         scanner.nextLine();
         System.out.print("Ievadi darbību (+,-,*,/): ");
-        String action = scanner.nextLine();;
+        String action = scanner.next();
         scanner.close();
         switch(action){
             case "+":
-                System.out.println(a + b);
+                System.out.printf("%.2f + %.2f = %.2f ",a ,b ,a + b);
                 break;
             case "-":
-                System.out.println(a - b);
+                System.out.printf("%.2f + %.2f = %.2f ",a ,b ,a - b);
                 break;
             case "*":
-                System.out.println(a * b);
+                System.out.printf("%.2f + %.2f = %.2f ",a ,b ,a * b);
                 break;
             case "/":
-                System.out.println(a / b);
+                System.out.printf("%.2f + %.2f = %.2f ",a ,b ,a / b);
                 break;
             default:
                 System.out.println("Nepareiza darbība");
