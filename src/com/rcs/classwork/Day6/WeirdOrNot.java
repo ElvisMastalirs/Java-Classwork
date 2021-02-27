@@ -9,12 +9,10 @@ public class WeirdOrNot {
         System.out.print("Enter number : ");
         int x = scanner.nextInt();
         scanner.close();
-        if (x % 2 != 0 || (x >= 6 && x <= 20){
+        if (x % 2 != 0 || (x >= 6 && x <= 20)){
             System.out.println("Weird");
-        } else if((x % 2 == 0 && x >= 2 && x <= 5) || x >= 20){
+        } else{
             System.out.println("Not weird");
-        } else {
-            System.out.println("Weird");
         }
     }
 }
