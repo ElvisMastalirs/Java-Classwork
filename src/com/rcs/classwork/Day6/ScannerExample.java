@@ -13,16 +13,17 @@ public class ScannerExample {
         }
         scanner.nextLine();
         System.out.print("Ievadi boolean tipa vērtību: ");
-        if (scanner.hasNextBoolean()){
+        if (scanner.hasNextBoolean()) {
             System.out.println(scanner.nextBoolean());
             x++;
         }
         scanner.nextLine();
         System.out.print("Ievadi tekstu: ");
-        if (scanner.hasNextLine()){
+        if (scanner.hasNextLine()) {
             System.out.println(scanner.nextLine());
             x++;
-        } scanner.close();
+        }
+        scanner.close();
         System.out.println("Puntku skaits: " + x);
 
     }
