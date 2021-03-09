@@ -1,10 +1,9 @@
 package com.rcs.classwork.Day10;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Random;
 
-public class ReverseArray<numberArray> {
+public class ReverseArray {
     public static void main(String[] args) {
         int[] numberArray = new int[10];
         Random rnd = new Random();
