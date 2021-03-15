@@ -9,13 +9,13 @@ public class ReverseArray {
         Random rnd = new Random();
         int temp;
         for (int i = 0; i < numberArray.length; i++) {
-            numberArray[i] = rnd.nextInt(30) + 20;
+            numberArray[i] = rnd.nextInt(31) + 20;
         }
         System.out.println(Arrays.toString(numberArray));
-        for (int j = 0; j < numberArray.length / 2; j++) {
-            temp = numberArray[j];
-            numberArray[j] = numberArray[numberArray.length - j - 1];
-            numberArray[numberArray.length - j - 1] = temp;
+        for (int i = 0; i < numberArray.length / 2; i++) {
+            temp = numberArray[i];
+            numberArray[i] = numberArray[numberArray.length - i - 1];
+            numberArray[numberArray.length - i - 1] = temp;
         }
         System.out.print(Arrays.toString(numberArray));
     }
